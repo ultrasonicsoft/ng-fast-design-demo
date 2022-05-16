@@ -1,6 +1,6 @@
-# NgFastDesignDemo
+# Using FAST Design system in Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.4.
+The Microsoft [FAST](https://www.fast.design/docs/components/getting-started) design system is very interesting. In this demo, we will create a simple application show casing how to use it in Angular.
 
 ## Development server
 
