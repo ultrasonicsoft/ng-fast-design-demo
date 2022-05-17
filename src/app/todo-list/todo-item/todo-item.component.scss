@@ -1,0 +1,25 @@
+.task-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 0.5rem;
+
+  fast-card {
+    width: 400px;
+    color: var(--neutral-foreground-rest);
+
+    .new-task {
+      display: flex;
+      justify-content: space-between;
+      padding-left: 20px;
+      padding-right: 20px;
+
+      fast-switch {
+        margin-left: 1rem;
+      }
+    }
+  }
+
+}

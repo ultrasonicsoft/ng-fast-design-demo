@@ -1,0 +1,16 @@
+<div class="new-task-container">
+  <fast-card>
+    <form [formGroup]="newTaskForm">
+      <div class="new-task">
+        <fast-text-field name="newTask" formControlName="newTask" ngDefaultControl appearance="filled"
+          placeholder="user@email.com">New Task
+        </fast-text-field>
+        <fast-button appearance="primary" type="submit" (click)="addTask()">Add task</fast-button>
+      </div>
+    </form>
+  </fast-card>
+</div>
+
+<div *ngFor="let todoEntry of allTodos">
+  <todo-item [todo]="todoEntry"></todo-item>
+</div>

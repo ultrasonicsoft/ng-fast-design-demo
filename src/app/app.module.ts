@@ -1,22 +1,17 @@
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TodoListModule } from './todo-list/todo-list.module';
 
 import {
   provideFASTDesignSystem,
-  fastCard,
-  fastButton,
-  fastTextField
-} from '@microsoft/fast-components';
+  fastToolbar,
+} from "@microsoft/fast-components";
 
 provideFASTDesignSystem()
   .register(
-    fastCard(),
-    fastButton(),
-    fastTextField()
+    fastToolbar()
   );
 
 @NgModule({
@@ -25,7 +20,7 @@ provideFASTDesignSystem()
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    TodoListModule,
   ],
   providers: [],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
