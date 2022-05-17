@@ -2,6 +2,11 @@
 
 The Microsoft [FAST](https://www.fast.design/docs/components/getting-started) design system is very interesting. In this demo, we will create a simple application show casing how to use it in Angular.
 
+
+## Medium Article
+
+https://medium.com/@balramchavan/using-microsofts-fast-design-system-in-angular-8203c72e77ce
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
