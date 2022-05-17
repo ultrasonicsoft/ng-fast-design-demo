@@ -1,6 +1,11 @@
 {
-  "name": "ng-fast-design-demo",
-  "version": "0.0.0",
+  "name": "angular-fast-demo",
+  "version": "1.0.0",
+  "description": "Todo list built with Angular and Microsoft FAST design",
+  "author": {
+    "name": "Balram Chavan"
+  },
+  "license": "MIT",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,7 +13,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "~13.3.0",
     "@angular/common": "~13.3.0",
